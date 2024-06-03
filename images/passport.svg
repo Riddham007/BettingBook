@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 27" width="24" height="27">
+	<title>passport</title>
+	<defs>
+		<image  width="24" height="27" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAbCAMAAABRPb9kAAAAAXNSR0IB2cksfwAAAPxQTFRFxwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5YSXb1wAAAFR0Uk5TGazw//jmr7D0opSpEADooFiNpUjD81rt49P+zjTr0S7J7yn9jzUmo2VuZKibcmKRiCSqY3D1OvyTJy/k2c9T5+zU2DO1+bY/f5gsnpUEd+E9HRVMfyYzrQAAASVJREFUeJyFkuluglAQRm8dEVFHrgtuoLiAKCpWXLDurW3V7sv7v0tNCsiSpuff5CSTmS8fIVcRCBJlYoSwcS4RgouzhEmmMEQqyZA0bw80k81mqD3waUfk8gBCHCCf84tCsVSuUFoRS8WCV0jVmlyuI9bLcq0qeQTbkJotBVFpNdUGexFtQcMOdBG70EFNaLtCh56uQV/X+6DpPdBdMfA/PnCFARwdwjWlCRhSDgxXjCImjmGCOIExmpHR5SpzOmtbc8S5dTObmp5zF8uVuhYRxbW6Wi68n2+2u1swDLjbbTf+rPb3FkQfwHrcB0JEPBxPp+MhlG4AWzw98x5eXl3xxqQ9vMv/rzrzMbH5DIi1k6DiCLslX982bkv+7BWJ+U765dzEH4Q6MqMp3YeCAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

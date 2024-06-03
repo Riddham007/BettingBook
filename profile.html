@@ -1,0 +1,1235 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="./css/swiper.min.css">
+      <link rel="stylesheet" href="./css/style.css">
+      <link rel="stylesheet" href="./css/all.min.css">
+      <link rel="stylesheet" href="./css/Telephone_Input.css">
+   </head>
+   <body>
+      <div class="modal fade" id="password-verification" data-bs-keyboard="false" tabindex="-1"  aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+               <div class="mobaile-verification">
+                  <h3>Enter verification code</h3>
+                  <p>Enter the code we just send on your Email <b>xyz123@gmail.com</b></p>
+                  <div class="personal-input">
+                     <input type="text" name="name" placeholder="Enter verification code">
+                  </div>
+                  <div class="lr-btn">
+                     <button class="btn Verify-btn">Verify</button>
+                  </div>
+                  <div class="resend-code">
+                     <p>Didn't get the code? <button>Resend Code</button></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal fade" id="kyc-thank" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+               <div class="status-icon"><i class="fa-solid fa-check"></i></div>
+               <div class="kyc-thank-text">
+                  <h3>You have completed the process of KYC</h3>
+                  <p>We are still waiting for your identity verification. Once our team verified your indentity, you will be notified by email. You can also check your KYC compliance status from your profile page.
+                  </p>
+                  <div class="goto-profile">
+                     <a href="#" class="btn" data-bs-dismiss="modal" aria-label="Close">Back to Profile</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <header>
+         <div class="flex">
+            <div class="logo">
+               <img src="./images/logo.png" alt="logo">
+            </div>
+            <div class="header-right">
+               <div class="header-menu">
+                  <ul>
+                     <li><a href="#">sports</a></li>
+                     <li><a href="#">casino</a></li>
+                  </ul>
+               </div>
+               <div class="header-btn">
+                  <button class="btn">Sign In</button>
+               </div>
+            </div>
+         </div>
+      </header>
+      <div class="main-page profile-page">
+         <div class="container">
+            <div class="flex m-0">
+               <div class="sports-menu">
+                  <div class="heading-side-menu">
+                     <h3>Sports</h3>
+                     <ul>
+                        <li><a href="index.html"><i class="fa-regular fa-futbol"></i>Football</a></li>
+                        <li><a href="tennis.html"><i class="fa-solid fa-table-tennis-paddle-ball"></i>Tennis</a></li>
+                        <li><a href="basketball.html"><i class="fa-solid fa-basketball"></i>Basketball</a></li>
+                        <li><a href="cricket.html"><img src="./images/cricket.svg" alt="">Cricket</a></li>
+                        <li><a href="american-football.html"><i class="fa-solid fa-football"></i>American Football</a></li>
+                        <li><a href="ice-hockey.html"><img src="./images/ice-hockey.svg" alt="">Ice Hockey</a></li>
+                        <li><a href="baseball.html"><img src="./images/baseball.svg" alt="">Base Ball</a></li>
+                        <li><a href="rugby-union.html"><img src="./images/rugby_union.svg" alt="">Rugby Union</a></li>
+                        <li><a href="rugby-league.html"><img src="./images/rugby_league.svg" alt="">Rugby League</a></li>
+                        <li><a href="australian-rules.html"><img src="./images/australian_rules.svg" alt="">Australian Rules</a></li>
+                        <li><a href="volleyball.html"><img src="./images/volleyball.svg" alt="">Volleyball</a></li>
+                        <li><a href="table-tennis.html"><img src="./images/table_tennis.svg" alt="">Table Tennis</a></li>
+                        <li><a href="darts.html"><img src="./images/darts.svg" alt="">Darts</a></li>
+                        <li><a href="snooker.html"><img src="./images/snooker.svg" alt="">Snooker</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="center-batting-box">
+                  <div class="sports-heading">
+                     <h3>Profile</h3>
+                  </div>
+                  <div class="profile-detail">
+                     <div class="user_info">
+                        <div class="user_img">
+                           <img class="profile_pic" src="./images/logo.png">
+                           <label class="input_img">
+                           <i class="fa-solid fa-pen"></i>
+                           </label>
+                        </div>
+                        <div class="profile-name-detail">
+                           <h3 id="acc_username">GuestmUwsIb</h3>
+                           <h4>User id: 377</h4>
+                        </div>
+                     </div>
+                     <div class="balane-info">
+                        <ul>
+                           <li>My Balance <span>$0</span></li>
+                           <li>Bonus Balance<span>$0</span></li>
+                           <li>Total Bets<span>$0</span></li>
+                           <li>Total Wins<span>$0</span></li>
+                        </ul>
+                        
+                     </div>
+                  </div>
+                  <div class="tabs profile-tabs">
+                     <div class="tabs-sub-main">
+                        <ul id="tabs-nav" class="tab-in">
+                           <li><a href="#My-Profile">My Profile</a></li>
+                           <li><a href="#Betting-History">Betting History</a></li>
+                           <li><a href="#Account-Statement">Account Statement</a></li>
+                           <li><a href="#Profit_Loss">Profit & Loss</a></li>
+                        </ul>
+                        <!-- <div class="loader-box">
+                           <div class='loader'></div>
+                           </div> -->
+                        <!-- END tabs-nav -->
+                        <div id="tabs-content">
+                           <div id="My-Profile" class="tab-content">
+                              <div class="profile-detail-inner">
+                                 <ul id="tabs-nav" class="tab-in">
+                                    <li><a href="#Personal-Details">Personal Details</a></li>
+                                    <li><a href="#Change-Password">Change Password</a></li>
+                                    <li><a href="#KYC">KYC</a></li>
+                                    <li><a href="#Authentication">Authentication</a></li>
+                                 </ul>
+                                 <!-- <div class="loader-box">
+                                    <div class='loader'></div>
+                                    </div> -->
+                                 <div id="tabs-content">
+                                    <div id="Personal-Details" class="tab-content hidden">
+                                       <div class="personal-details-form">
+                                          <form>
+                                             <div class="personal-input">
+                                                <input type="text" name="name" placeholder="first name" />
+                                             </div>
+                                             <div class="personal-input">
+                                                <input type="text" name="date" class="js-ui-datepicker" placeholder="DD-MM-YY" />
+                                             </div>
+                                             <div class="personal-input">
+                                                <input type="text" name="name" placeholder="last name" />
+                                             </div>
+                                             <div class="personal-input">
+                                                <input type="text" name="name" placeholder="Email">
+                                             </div>
+                                             <div class="personal-input">
+                                                <input type="text" name="name" placeholder="IN">
+                                             </div>
+                                             <div class="personal-input">
+                                                <input type="text" name="name" placeholder="Address">
+                                             </div>
+                                             <div class="personal-input">
+                                                <input type="text" id="mobile_code" class="form-control"
+                                                   placeholder="Phone Number" name="name">
+                                             </div>
+                                          </form>
+                                       </div>
+                                    </div>
+                                    <div id="Change-Password" class="tab-content">
+                                       <div class="personal-details-form">
+                                          <form>
+                                             <div class="personal-input">
+                                                <div class="personal-icon-box">
+                                                   <input type="password" name="name"
+                                                      placeholder="Current Password">
+                                                   <i class="fa-regular fa-eye"></i>
+                                                </div>
+                                             </div>
+                                             <div class="personal-input">
+                                                <div class="personal-icon-box">
+                                                   <input type="password" name="name"
+                                                      placeholder="Enter New Password">
+                                                   <i class="fa-regular fa-eye"></i>
+                                                </div>
+                                             </div>
+                                             <div class="personal-input">
+                                                <div class="personal-icon-box">
+                                                   <input type="password" name="name"
+                                                      placeholder="Password">
+                                                   <i class="fa-regular fa-eye"></i>
+                                                </div>
+                                             </div>
+                                          </form>
+                                          <div class="personal-input form-btn">
+                                             <button class="btn" data-bs-toggle="modal" data-bs-target="#password-verification">Save changes</button>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div id="KYC" class="tab-content">
+                                       <div class="sports-heading">
+                                          <h3>Choose Varification Option</h3>
+                                       </div>
+                                       <div class="history-select">
+                                          <label>Select Region</label>
+                                          <select>
+                                             <option>USA</option>
+                                             <option>UK</option>
+                                             <option>Canada</option>
+                                             <option>France</option>
+                                             <option>Spain</option>
+                                          </select>
+                                       </div>
+                                       <div class="kyc-head">
+                                          <h4>Personal Documents
+                                          </h4>
+                                          <p>Upload any of the following personal document.</p>
+                                       </div>
+                                       <div class="select-document">
+                                          <div class="label">Select Document type :</div>
+                                          <ul>
+                                             <li class="active ff" id="gg">
+                                                <img src="./images/passport.svg" alt="">
+                                                passport
+                                             </li>
+                                             <li class="ff" id="ff">
+                                                <img src="./images/nid.svg" alt="">
+                                                National id
+                                             </li>
+                                             <li class="ff" id="ee">
+                                                <img src="./images/driving.svg" alt="">
+                                                Driver’s License
+                                             </li>
+                                          </ul>
+                                       </div>
+                                       <div class="file-input-wrap">
+                                          <div class="custom-file">
+                                             <input type="file" class="custom-file-input" id="nidf" accept="images/*" >
+                                             <label class="custom-file-label" for="nidf" id="addfile"><img src="./images/cloud.svg" id="blah"></label>
+                                             <span class="text">National ID Front</span>
+                                          </div>
+                                          <div class="custom-file">
+                                             <input type="file" class="custom-file-input" id="nidb">
+                                             <label class="custom-file-label" for="nidb" id="addfile"><img src="./images/cloud.svg" id="blah" ></label>
+                                             <span class="text">National ID Back</span>
+                                          </div>
+                                          <div class="custom-file">
+                                             <input type="file" class="custom-file-input" id="nids">
+                                             <label class="custom-file-label" for="nids" id="addfile"><img src="./images/cloud.svg" id="blah"></label>
+                                             <span class="text">Selfie with National ID</span>
+                                          </div>
+                                       </div>
+                                       <div class="delays">
+                                          <h5>To avoid delays when verifying account, Please make sure bellow:</h5>
+                                          <ul class="list-check">
+                                             <li>Chosen credential must not be expaired.</li>
+                                             <li>Document should be good condition and clearly visible.</li>
+                                             <li>Make sure that there is no light glare on the card.</li>
+                                          </ul>
+                                       </div>
+                                       <div class="kyc-form">
+                                          <div class="personal-input">
+                                             <label for="">Full Name</label>
+                                             <input type="text" name="name" placeholder="Full name">
+                                          </div>
+                                          <div class="personal-input">
+                                             <label for="">National ID Number</label>
+                                             <input type="text" name="name" placeholder="National ID Number">
+                                          </div>
+                                       </div>
+                                       <div class="kyc-btn">
+                                          <button class="btn" data-bs-toggle="modal" data-bs-target="#kyc-thank">Submit Documents</button>
+                                       </div>
+                                    </div>
+                                    <div id="Authentication" class="tab-content">
+                                       <div class="authentication-box">
+                                          <h3>Two-Factor Authentication</h3>
+                                          <p>For successful authorization, you will need to enter a code that
+                                             will be sent to your phone or email.
+                                          </p>
+                                       </div>
+                                       <div class="authentication-box">
+                                          <div class="authentication-inner-box">
+                                             <div>
+                                                <h3>SMS Code</h3>
+                                                <p>Phone number: <b>918347406498</b></p>
+                                             </div>
+                                             <button class="btn">Verify</button>
+                                          </div>
+                                          <div class="verification-box">
+                                             <h4>Verification of phone number</h4>
+                                             <div class="personal-input">
+                                                <label>Please confirm your mobile number</label>
+                                                <input type="text" name="name" placeholder="Enter Verification code">
+                                             </div>
+                                             <button class="btn">Verify</button>
+                                          </div>
+                                       </div>
+                                       <div class="authentication-box">
+                                          <div class="authentication-inner-box">
+                                             <div>
+                                                <h3>Email Code</h3>
+                                                <p>Email: <b>riddham.opula007@gmail.com</b></p>
+                                             </div>
+                                             <button class="btn">Verify</button>
+                                          </div>
+                                          <div class="verification-box">
+                                             <h4>Email verification</h4>
+                                             <div class="personal-input">
+                                                <label>The code was sent to
+                                                <b>riddham.opula007@gmail.com</b></label>
+                                                <input type="text" name="name" placeholder="Enter Verification code">
+                                             </div>
+                                             <div class="resend-code-main">
+                                                <button class="btn">Verify the email</button>
+                                                <div class="resend-code-btn">Resend the code
+                                                   <span>00:60</span>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="authentication-box google">
+                                          <div class="authentication-inner-box">
+                                             <h3>Google Authenticator</h3>
+                                             <div class="">
+                                                <button class="btn">Enable</button>
+                                             </div>
+                                          </div>
+                                          <div class="verification-box two-factor-main">
+                                             <h4>Set up Google Authenticator</h4>
+                                             <div class="Two-Factor-detail-main">
+                                                <div class="Two-Factor-detail">
+                                                   <div class="step">1</div>
+                                                   <p>Install Google Authenticator app</p>
+                                                </div>
+                                                <div class="Two-Factor-btn">
+                                                   <a href="#">
+                                                   <img src="./images/app-store.webp" alt="">
+                                                   </a>
+                                                   <a href="#">
+                                                   <img src="./images/google-play.webp" alt="">
+                                                   </a>
+                                                </div>
+                                             </div>
+                                             <div class="Two-Factor-detail-main">
+                                                <div class="Two-Factor-detail">
+                                                   <div class="step">2</div>
+                                                   <p>Install Google Authenticator app</p>
+                                                </div>
+                                                <div class="install-app-description">
+                                                   <div class="rq-code">
+                                                      <img src="./images/rq.png" alt="">
+                                                   </div>
+                                                   <div class="app-sub-text">
+                                                      <p> 1. Open Google Authenticator and click <b>"Plus"</b></p>
+                                                      <p> 2. Select <b>"Scan QR code"</b></p>
+                                                      <p> 3. Point your camera at the QR code to scan it
+                                                      </p>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="Two-Factor-detail-main">
+                                                <div class="Two-Factor-detail">
+                                                   <div class="step">3</div>
+                                                   <p>Enter a verification code from the Google
+                                                      Authenticator
+                                                   </p>
+                                                </div>
+                                                <div class="personal-input">
+                                                   <label>Enter the code</label>
+                                                   <input type="text" name="name"
+                                                      placeholder="Enter verification code">
+                                                   <p>Get the code from the authenticator app</p>
+                                                </div>
+                                                <div class="Two-Factor-verify">
+                                                   <button class="btn">Verify</button>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div id="Betting-History" class="tab-content">
+                              <div class="betting-history-filter">
+                                 <div class="history-select">
+                                    <label>Bets</label>
+                                    <select>
+                                       <option active>All</option>
+                                       <option active>Matched</option>
+                                       <option active>Un-Matched</option>
+                                       <option active>Deleted</option>
+                                    </select>
+                                 </div>
+                                 <div class="history-select">
+                                    <label>Time period</label>
+                                    <input type="text" name="date" class="js-ui-datepicker" placeholder="DD-MM-YY">
+                                 </div>
+                                 <div class="history-select">
+                                    <label>Bet Type</label>
+                                    <select>
+                                       <option active>All</option>
+                                       <option active>Back</option>
+                                       <option active>lay</option>
+                                    </select>
+                                 </div>
+                                 <div class="filter-tab">
+                                    <ul id="tabs-nav" class="tab-in">
+                                        <li><a href="#current-bets">Current Bets</a></li>
+                                        <li><a href="#bets-history-fil">Bets History</a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                              <div id="tabs-content">
+                                    <div id="current-bets" class="tab-content">
+                                        <ul id="tabs-nav" class="tab-in">
+                                            <li><a href="#odds-bets">Match Odds Bets</a></li>
+                                            <li><a href="#fancy-bets">Fancy Bets</a></li>
+                                        </ul>
+                                        <div id="tabs-content">
+                                            <div id="odds-bets" class="tab-content">
+                                                <div class="history-table">
+                                                    <table>
+                                                        <thead>
+                                                        <tr class="header-table">
+                                                            <th>
+                                                                #
+                                                            </th>
+                                                            <th>
+                                                                Market
+                                                            </th>
+                                                            <th>
+                                                                Type
+                                                            </th>
+                                                            <th>
+                                                                Odd	
+                                                            </th>
+                                                            <th>
+                                                                Stack
+                                                            </th>
+                                                            <th>
+                                                                Win
+                                                            </th>
+                                                            <th>
+                                                                Loss	
+                                                            </th>
+                                                            <th>
+                                                                Status
+                                                            </th>
+                                                            <th>
+                                                                Time
+                                                            </th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                        <tr >
+                                                            <td><span class="tb_title">1</span></td>
+                                                            <td><span class="tb_title">Market: </span>Cricket &gt;&gt; Pakistan v Sri Lanka &gt;&gt; Pakistan</td>
+                                                            <td class="text-primary"><span class="tb_title">Type: </span>back</td>
+                                                            <td><span class="tb_title">Odd: </span>11.80</td>
+                                                            <td><span class="tb_title">Stack: </span>1000.00</td>
+                                                            <td class="text-success"><span class="tb_title">Win: </span>10800.00</td>
+                                                            <td class="text-danger"><span class="tb_title">Loss: </span>1000.00</td>
+                                                            <td><span class="tb_title">Status: </span>Pending</td>
+                                                            <td><span class="tb_title">Time: </span>17 Aug 2023, 10:41:22 AM</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><span class="tb_title">2</span></td>
+                                                            <td><span class="tb_title">Market: </span>Cricket &gt;&gt; Pakistan v Sri Lanka &gt;&gt; Pakistan</td>
+                                                            <td class="text-primary"><span class="tb_title">Type: </span>back</td>
+                                                            <td><span class="tb_title">Odd: </span>10.10</td>
+                                                            <td><span class="tb_title">Stack: </span>1000.00</td>
+                                                            <td class="text-success"><span class="tb_title">Win: </span>9100.00</td>
+                                                            <td class="text-danger"><span class="tb_title">Loss: </span>1000.00</td>
+                                                            <td><span class="tb_title">Status: </span>Pending</td>
+                                                            <td><span class="tb_title">Time: </span>27 Jul 2023, 11:53:33 AM</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            <div id="fancy-bets" class="tab-content">
+                                                <div class="history-table">
+                                                    <table>
+                                                        <thead>
+                                                        <tr class="header-table">
+                                                            <th>
+                                                                #
+                                                            </th>
+                                                            <th>
+                                                                Market
+                                                            </th>
+                                                            <th>
+                                                                Type
+                                                            </th>
+                                                            <th>
+                                                                Odd	
+                                                            </th>
+                                                            <th>
+                                                                Stack
+                                                            </th>
+                                                            <th>
+                                                                Win
+                                                            </th>
+                                                            <th>
+                                                                Loss	
+                                                            </th>
+                                                            <th>
+                                                                Status
+                                                            </th>
+                                                            <th>
+                                                                Time
+                                                            </th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                        <tr >
+                                                            <td><span class="tb_title">1</span></td>
+                                                            <td><span class="tb_title">Market: </span>Cricket >> Pakistan v Sri Lanka >> Pakistan</td>
+                                                            <td class="text-primary"><span class="tb_title">Type: </span>back</td>
+                                                            <td><span class="tb_title">Odd: </span>11.80</td>
+                                                            <td><span class="tb_title">Stack: </span>1000.00</td>
+                                                            <td class="text-success"><span class="tb_title">Win: </span>10800.00</td>
+                                                            <td class="text-danger"><span class="tb_title">Loss: </span>1000.00</td>
+                                                            <td><span class="tb_title">Status: </span>Pending</td>
+                                                            <td><span class="tb_title">Time: </span>17 Aug 2023, 10:41:22 AM</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><span class="tb_title">2</span></td>
+                                                            <td><span class="tb_title">Market: </span>Cricket >> Pakistan v Sri Lanka >> 30 over run SL</td>
+                                                            <td class="text-primary"><span class="tb_title">Type: </span>No</td>
+                                                            <td><span class="tb_title">Odd: </span>10.10</td>
+                                                            <td><span class="tb_title">Stack: </span>1000.00</td>
+                                                            <td class="text-success"><span class="tb_title">Win: </span>9100.00</td>
+                                                            <td class="text-danger"><span class="tb_title">Loss: </span>1000.00</td>
+                                                            <td><span class="tb_title">Status: </span>Pending</td>
+                                                            <td><span class="tb_title">Time: </span>27 Jul 2023, 11:53:33 AM</td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div id="bets-history-fil" class="tab-content">
+                                        <div class="history-table">
+                                            <table>
+                                                <thead>
+                                                <tr class="header-table">
+                                                    <th>
+                                                        #
+                                                    </th>
+                                                    <th>
+                                                        Market
+                                                    </th>
+                                                    <th>
+                                                        Type
+                                                    </th>
+                                                    <th>
+                                                        Odd	
+                                                    </th>
+                                                    <th>
+                                                        Stack
+                                                    </th>
+                                                    <th>
+                                                        Win
+                                                    </th>
+                                                    <th>
+                                                        P&L	
+                                                    </th>
+                                                 
+                                                    <th>
+                                                        Time
+                                                    </th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr >
+                                                    <td><span class="tb_title">1</span></td>
+                                                    <td><span class="tb_title">Market: </span>Cricket &gt;&gt; Pakistan v Sri Lanka &gt;&gt; Pakistan</td>
+                                                    <td class="text-primary"><span class="tb_title">Type: </span>back</td>
+                                                    <td><span class="tb_title">Odd: </span>11.80</td>
+                                                    <td><span class="tb_title">Stack: </span>1000.00</td>
+                                                    <td class="text-success"><span class="tb_title">Win: </span>10800.00</td>
+                                                    <td class="text-danger"><span class="tb_title">Loss: </span>1000.00</td>
+                                                    <td><span class="tb_title">Time: </span>17 Aug 2023, 10:41:22 AM</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="tb_title">2</span></td>
+                                                    <td><span class="tb_title">Market: </span>Cricket &gt;&gt; Pakistan v Sri Lanka &gt;&gt; Pakistan</td>
+                                                    <td class="text-primary"><span class="tb_title">Type: </span>back</td>
+                                                    <td><span class="tb_title">Odd: </span>10.10</td>
+                                                    <td><span class="tb_title">Stack: </span>1000.00</td>
+                                                    <td class="text-success"><span class="tb_title">Win: </span>9100.00</td>
+                                                    <td class="text-danger"><span class="tb_title">Loss: </span>1000.00</td>
+                                                    <td><span class="tb_title">Time: </span>27 Jul 2023, 11:53:33 AM</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                               </div>
+                           </div>
+                           <div id="Account-Statement" class="tab-content">
+                              <div class="betting-history-filter">
+                                 <div class="history-select">
+                                    <label>All</label>
+                                    <select>
+                                       <option active>All</option>
+                                       <option active>Credit</option>
+                                       <option active>Debit</option>
+                                    </select>
+                                 </div>
+                                 <div class="history-select">
+                                    <label>From</label>
+                                    <input type="text" id="from" name="from" class="js-ui-datepicker" placeholder="DD-MM-YY">
+                                 </div>
+                                 <div class="history-select">
+                                    <label>to</label>
+                                    <input type="text" id="to" name="to" class="js-ui-datepicker" placeholder="DD-MM-YY">
+                                 </div>
+                                 <div class="account-btn">
+                                    <button class="btn">Clear</button>
+                                 </div>
+                                 <div class="account-btn">
+                                    <button class="btn">Get Statement </button>
+                                 </div>
+                                 <div class="filter-btns">
+                                    <button type="button" class="btn">Today </button>
+                                    <button type="button" class="btn">From Yesterday  </button>
+                                    <button type="button" class="btn">Last 7 Day  </button>
+                                    <button type="button" class="btn">Last 30 Day</button>
+                                    <button type="button" class="btn">Last 3 month  </button>
+                                 </div>
+                              </div>
+                              <div class="history-table">
+                                 <table>
+                                    <thead>
+                                       <tr class="header-table">
+                                          <th>
+                                            Date Time
+                                          </th>
+                                          <th>
+                                            Credit
+                                          </th>
+                                          <th>
+                                            Debit
+                                          </th>
+                                          <th>
+                                            Balance
+                                          </th>
+                                          <th>
+                                            Description
+                                          </th>
+                                          <th>
+                                            Type
+                                          </th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <!-- <td colspan="6" style="text-align:center">
+                                             Not found
+                                             </td> -->
+                                             <td>
+                                                May 27, 2019, 11:51:47 AM
+                                             </td>
+                                             <td>
+                                                $5000
+                                             </td>
+                                             <td>
+                                                $4000
+                                             </td>
+                                             <td>
+                                                $8000
+                                             </td>
+                                             <td>
+                                                No data	
+                                             </td>
+                                             <td>
+                                                deposit
+                                             </td>
+                                       </tr>
+                                       <tr>
+                                           <td>
+                                             May 27, 2019, 11:51:47 AM
+                                           </td>
+                                           <td>
+                                              $4500
+                                           </td>
+                                           <td>
+                                              $3500
+                                           </td>
+                                           <td>
+                                              $5000
+                                           </td>
+                                           <td>
+                                             Cricket > England v Australia	
+                                           </td>
+                                           <td>
+                                              deposit
+                                           </td>
+                                     </tr>
+
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                           <div id="Profit_Loss" class="tab-content">
+                            <div class="betting-history-filter">
+                                <div class="history-select">
+                                   <label>All</label>
+                                   <select>
+                                      <option active>All</option>
+                                      <option active>Credit</option>
+                                      <option active>Debit</option>
+                                   </select>
+                                </div>
+                                <div class="history-select">
+                                   <label>From</label>
+                                   <input type="text" id="from_1" name="from" class="js-ui-datepicker" placeholder="DD-MM-YY">
+                                </div>
+                                <div class="history-select">
+                                   <label>to</label>
+                                   <input type="text" id="to_1" name="to" class="js-ui-datepicker" placeholder="DD-MM-YY">
+                                </div>
+                                <div class="account-btn">
+                                   <button class="btn">Clear</button>
+                                </div>
+                                <div class="account-btn">
+                                   <button class="btn">Get Statement </button>
+                                </div>
+                                <div class="filter-btns">
+                                   <button type="button" class="btn">Match Wise  </button>
+                                   <button type="button" class="btn">Today </button>
+                                   <button type="button" class="btn">From Yesterday  </button>
+                                   <button type="button" class="btn">Last 7 Day  </button>
+                                   <button type="button" class="btn">Last 30 Day</button>
+                                   <button type="button" class="btn">Last 3 month  </button>
+                                </div>
+                             </div>
+                             <div class="history-table">
+                                <table>
+                                   <thead>
+                                      <tr class="header-table">
+                                        <th>
+                                            #
+                                          </th>
+                                         <th>
+                                            Settled Date	
+                                         </th>
+                                         <th>
+                                            Market	
+                                         </th>
+                                         <th>
+                                            Result
+                                         </th>
+                                         <th>
+                                            Description
+                                         </th>
+                                         <th>
+                                            P&L
+                                         </th>
+                                         <th>
+                                            Commission	
+                                         </th>
+                                         <th>
+                                            Action
+	
+                                         </th>
+                                      </tr>
+                                   </thead>
+                                   <tbody>
+                                      <tr>
+                                         <td>May 27, 2019</td>
+                                         <td>Cricket >> Pakistan v Sri Lanka >> Pakistan</td>
+                                         <td>500</td>
+                                         <td>Cricket > England v Australia</td>
+                                         <td class="text-danger">-467000</td>
+                                         <td>0</td>
+                                         <td class="text-success">success</td>
+                                      </tr>
+                                      <tr>
+                                        <td>May 28, 2019</td>
+                                        <td>No data</td>
+                                        <td>500</td>
+                                        <td>Cricket > England v Australia</td>
+                                        <td class="text-success">95550</td>
+                                        <td>0</td>
+                                        <td class="text-success">success</td>
+                                     </tr>
+                                   </tbody>
+                                </table>
+                             </div>
+                           </div>
+                        </div>
+                        <!-- END tabs-content -->
+                     </div>
+                  </div>
+                  <!-- END tabs -->
+               </div>
+               <div class="bet-menu">
+                  <div class="live-stream">
+                     <div class="sports-heading">
+                        <h3>live stream</h3>
+                     </div>
+                     <div class="live-tv">
+                        <iframe id="rindle-frame" scrolling="no" width="100%" allowfullscreen="" height="205px" allow="" src="https://player.twitch.tv/?channel=betby_games_19&amp;parent=rajabets.com&amp;muted=true&amp;allow=&amp;parent=static2.stratagem.me"></iframe>
+                     </div>
+                  </div>
+                  <div class="tabs">
+                     <ul id="tabs-nav" class="tab-in">
+                        <li><a href="#tab4">Betslip </a></li>
+                        <li><a href="#tab5">Open Bets (0)</a></li>
+                        <li><a href="./profile.html">Bet History</a></li>
+                     </ul>
+                     <div id="tabs-content">
+                        <div id="tab4" class="tab-content">
+                           <div class="betslip lay">
+                              <div class="bets-slip-detail">
+                                 <div class="bet-head">
+                                    <div class="bet_head">Lay (Bet For) : <i class="fas fa-times text-danger"></i></div>
+                                    <div class="bet-name-inner">
+                                       <h5>Morocco - Colombia</h5>
+                                       <h6>1X2</h6>
+                                    </div>
+                                 </div>
+                                 <div class="bet-detail-number">
+                                    <div class="bet-dn-input">
+                                       <label>Odds</label>
+                                       <input type="number" name="text" step="0.01">
+                                    </div>
+                                    <div class="bet-dn-input">
+                                       <label>Stake</label>
+                                       <input type="text" name="text">
+                                    </div>
+                                    <div class="bet-dn-input">
+                                       <label>Lability</label>
+                                       <input type="text" name="text">
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="label-stake">
+                                 <div class="label-inner">
+                                    <span>1000</span>
+                                    <span>2000</span>
+                                    <span>3000</span>
+                                    <span>4000</span>
+                                 </div>
+                                 <button> clear</button>
+                              </div>
+                           </div>
+                           <div class="betslip back">
+                              <div class="bets-slip-detail">
+                                 <div class="bet-head">
+                                    <div class="bet_head">Back (Bet For) : <i class="fas fa-times text-danger"></i></div>
+                                    <div class="bet-name-inner">
+                                       <h5>Morocco - Colombia</h5>
+                                       <h6>1X2</h6>
+                                    </div>
+                                 </div>
+                                 <div class="bet-detail-number">
+                                    <div class="bet-dn-input">
+                                       <label>Odds</label>
+                                       <input type="number" name="text" step="0.01">
+                                    </div>
+                                    <div class="bet-dn-input">
+                                       <label>Stake</label>
+                                       <input type="text" name="text">
+                                    </div>
+                                    <div class="bet-dn-input">
+                                       <label>Lability</label>
+                                       <input type="text" name="text">
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="label-stake">
+                                 <div class="label-inner">
+                                    <span>1000</span>
+                                    <span>2000</span>
+                                    <span>3000</span>
+                                    <span>4000</span>
+                                 </div>
+                                 <button> clear</button>
+                              </div>
+                           </div>
+                           <div class="place-button">
+                              <button class="btn">Place a bet</button>
+                           </div>
+                        </div>
+                        <div id="tab5" class="tab-content">
+                           <div class="profile_table table-responsive">
+                              <table class="table">
+                                 <thead>
+                                    <tr class="">
+                                       <th scope="col">Runner</th>
+                                       <th>Odds</th>
+                                       <th>Stake</th>
+                                       <th>P/L</th>
+                                    </tr>
+                                 </thead>
+                                 <thead>
+                                    <tr class="dark">
+                                       <th colspan="4">BookMaker Market</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td><span class="table_title">Pakistan</span></td>
+                                       <td>76.00</td>
+                                       <td>3000.00</td>
+                                       <td>2280.00</td>
+                                    </tr>
+                                 </tbody>
+                                 <thead>
+                                    <tr class="dark">
+                                       <th colspan="4">Fancy Market</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td><span class="table_title">30 Over Run</span></td>
+                                       <td>42.00(809.00)</td>
+                                       <td>1000.00</td>
+                                       <td>8090.00</td>
+                                    </tr>
+                                    <tr class="bg-danger">
+                                       <td><span class="table_title">Rangpur Rangers total runs</span></td>
+                                       <td>66.00(635.00)</td>
+                                       <td>1000.00</td>
+                                       <td>6350.00</td>
+                                    </tr>
+                                    <tr class="bg-danger">
+                                       <td><span class="table_title">30 Over Run</span></td>
+                                       <td>69.00(961.00)</td>
+                                       <td>1000.00</td>
+                                       <td>9610.00</td>
+                                    </tr>
+                                 </tbody>
+                                 <thead>
+                                    <tr class="dark">
+                                       <th colspan="4">Fancy2 Market</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr class="bg-danger">
+                                       <td><span class="table_title">30 over run SL</span></td>
+                                       <td>87.00(930.00)</td>
+                                       <td>2000.00</td>
+                                       <td>18600.00</td>
+                                    </tr>
+                                    <tr class="bg-danger">
+                                       <td><span class="table_title">10 over runs UAE(UAE vs SCO)adv</span></td>
+                                       <td>67.00(206.00)</td>
+                                       <td>1000.00</td>
+                                       <td>2060.00</td>
+                                    </tr>
+                                 </tbody>
+                                 <thead>
+                                    <tr class="dark">
+                                       <th colspan="4">MatchOdd Market</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td><span class="table_title">Pakistan</span></td>
+                                       <td>11.80</td>
+                                       <td>1000.00</td>
+                                       <td>10800.00</td>
+                                    </tr>
+                                    <tr>
+                                       <td><span class="table_title">Pakistan</span></td>
+                                       <td>10.10</td>
+                                       <td>1000.00</td>
+                                       <td>9100.00</td>
+                                    </tr>
+                                    <tr>
+                                       <td><span class="table_title">Pakistan</span></td>
+                                       <td>10.10</td>
+                                       <td>1000.00</td>
+                                       <td>9100.00</td>
+                                    </tr>
+                                    <tr>
+                                       <td><span class="table_title">UAE</span></td>
+                                       <td>6.30</td>
+                                       <td>1000.00</td>
+                                       <td>5300.00</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                        </div>
+                        <div id="tab6" class="tab-content">
+                           gbfdettsdfrwewr
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer class="footer-sec">
+         <div class="main">
+            <div class="footer-logo row">
+               <div class="footer-header">
+                  <img src="./images/logo.png" alt="">
+               </div>
+               <div class="logo-des">
+                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                     alteration in some form, by injected humour.
+                  </p>
+                  <div class="personal-input">
+                     <input type="text" name="name" placeholder="Enter your email">
+                  </div>
+                  <a href="#" class="btn-know btn">Subscribe</a>
+               </div>
+            </div>
+            <div class="office row">
+               <div class="footer-header">
+                  <h3>About us</h3>
+               </div>
+               <div class="link-des">
+                  <a href="#" class="footer-links">Terms & Conditions</a>
+                  <a href="#" class="footer-links">Privacy Policy</a>
+                  <a href="#" class="footer-links">BSGG Token</a>
+                  <a href="#" class="footer-links">FAQ's</a>
+               </div>
+            </div>
+            <div class="link row">
+               <div class="footer-header">
+                  <h3>Links</h3>
+               </div>
+               <div class="link-des">
+                  <a href="#" class="footer-links">Home</a>
+                  <a href="#" class="footer-links">About</a>
+                  <a href="#" class="footer-links">Services</a>
+                  <a href="#" class="footer-links">Galary</a>
+                  <a href="#" class="footer-links">Contact</a>
+               </div>
+            </div>
+            <div class="link row">
+               <div class="footer-header">
+                  <h3>Support</h3>
+               </div>
+               <div class="link-des">
+                  <a href="#" class="footer-links">Responsible Gambling</a>
+                  <a href="#" class="footer-links">Whitepaper</a>
+                  <a href="#" class="footer-links">GitHub</a>
+                  <a href="#" class="footer-links">Galary</a>
+                  <a href="#" class="footer-links">Live Chat</a>
+               </div>
+            </div>
+            <div class="link row">
+               <div class="footer-header">
+                  <h3>Social Media</h3>
+               </div>
+               <div class="link-des">
+                  <a href="#" class="footer-links">Twitter </a>
+                  <a href="#" class="footer-links">Facebook</a>
+                  <a href="#" class="footer-links">YouTube</a>
+                  <a href="#" class="footer-links">Instagram</a>
+                  <a href="#" class="footer-links">LinkedIn</a>
+               </div>
+            </div>
+         </div>
+         <div class="copyright">
+            <hr>
+            <p>© Copyright 2022 xyz.</p>
+         </div>
+      </footer>
+      <script type="text/javascript" src="./js/jquery.min.js"></script>
+      <script type="text/javascript" src="./js/swiper.min.js"></script>
+      <script type="text/javascript" src="./js/Telephone_Input.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+      <script>
+         $(document).ready(function () {
+             // Swiper: Slider
+             new Swiper('.swiper-container', {
+                 loop: true,
+                 nextButton: '.swiper-button-next',
+                 prevButton: '.swiper-button-prev',
+                 slidesPerView: 6,
+                 paginationClickable: true,
+                 spaceBetween: 20,
+                 breakpoints: {
+                     1920: {
+                         slidesPerView: 6,
+                         spaceBetween: 20
+                     },
+                     1028: {
+                         slidesPerView: 2,
+                         spaceBetween: 20
+                     },
+                     480: {
+                         slidesPerView: 1,
+                         spaceBetween: 10
+                     }
+                 }
+             });
+         
+         
+         
+             $("body .tab-content").addClass('hidden'); //Hide all content
+             $("body .tab-in li:first-child").addClass("active").removeClass('hidden'); //Activate first tab
+             $("body .tab-content:first-child").removeClass('hidden'); //Show first tab content
+         
+             //On Click Event
+             $("body .tab-in li").click(function () {
+         
+                 $(this).siblings().removeClass('active'); //Remove any "active" class
+                 $(this).addClass('active'); //Add "active" class to selected tab
+                 $('body .tab_content').addClass('hidden'); //Hide all tab content
+         
+                 var activeTab = $(this).find("a").attr("href"); //Find the href attribute value to identify the active tab + content
+                 $(activeTab).removeClass('hidden');       //Fade in the active ID content
+                 $(activeTab).siblings().addClass('hidden');
+                 return false;
+             });
+         
+         });
+         
+         //  Accroding sec
+         
+         $(document).ready(function () {
+             $(".accordion-title").click(function () {
+                 $(this).parent(".accordion-item").find(".accordion-contant").slideToggle();
+                 $(this).parent(".accordion-item").toggleClass("show-accroding");
+                 $(this).parent(".accordion-item").prevAll(".accordion-item");
+                 $(this).parent(".accordion-item").nextAll(".accordion-item");
+             });
+         });
+         
+         //  phone number
+         
+         
+         $("#mobile_code").intlTelInput({
+             initialCountry: "in",
+             separateDialCode: true,
+             // utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.4/js/utils.js"
+         });
+         
+         // select box
+         
+         $('select').each(function () {
+             var $this = $(this), selectOptions = $(this).children('option').length;
+         
+             $this.addClass('hide-select');
+             $this.wrap('<div class="select"></div>');
+             $this.after('<div class="custom-select"></div>');
+         
+             var $customSelect = $this.next('div.custom-select');
+             $customSelect.text($this.children('option').eq(0).text());
+         
+             var $optionlist = $('<ul />', {
+                 'class': 'select-options'
+             }).insertAfter($customSelect);
+         
+             for (var i = 0; i < selectOptions; i++) {
+                 $('<li />', {
+                     text: $this.children('option').eq(i).text(),
+                     rel: $this.children('option').eq(i).val()
+                 }).appendTo($optionlist);
+             }
+         
+             var $optionlistItems = $optionlist.children('li');
+         
+             $customSelect.click(function (e) {
+                 e.stopPropagation();
+                 $('div.custom-select.active').not(this).each(function () {
+                     $(this).removeClass('active').next('ul.select-options').hide();
+                 });
+                 $(this).toggleClass('active').next('ul.select-options').slideToggle();
+             });
+         
+             $optionlistItems.click(function (e) {
+                 e.stopPropagation();
+                 $customSelect.text($(this).text()).removeClass('active');
+                 $this.val($(this).attr('rel'));
+                 $optionlist.hide();
+             });
+         
+             $(document).click(function () {
+                 $customSelect.removeClass('active');
+                 $optionlist.hide();
+             });
+         
+             //  menu add active 
+             jQuery(function ($) {
+                 var path = window.location.href;
+                 $('.heading-side-menu li a').each(function () {
+                     if (this.href === path) {
+                         $(this).addClass('active');
+                     }
+                 });
+             });
+         
+         
+         });
+         
+         
+         // upalod img multiple
+         const collection = document.getElementsByClassName("custom-file-input");
+         
+         for (let i = 0; i < collection.length; i++) {
+         // console.log(i);
+         collection[i].onchange = function(){
+         var element = addfile[i];
+         element.classList.add("upload-img");
+         const [file] = this.files
+         if (file) {
+             blah[i].src = URL.createObjectURL(file);
+         }
+         };
+         }
+         
+         
+         // date picker
+         
+         $('.js-ui-datepicker').one('focus', function() {
+         $(this)
+         .datepicker({
+         minDate: 0,
+         showButtonPanel: true,
+         })
+         .datepicker('show');
+         $('#ui-datepicker-div').draggable();
+         });
+         
+      </script>
+   </body>
+</html>

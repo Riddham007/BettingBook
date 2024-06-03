@@ -1,0 +1,2203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/swiper.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+</head>
+
+<body>
+    <div class="modal fade" id="staticBackdrop" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="deposit-modal">
+                   <div class="deposit-left">
+                       <h3>Choose Deposit Method</h3>
+                       <div class="payment-list">
+                         <h5>You can use them now:</h5>
+                         <div class="payment-list-box">
+                            <div class="Payment-Item">
+                                <div class="Payment-Logo">
+                                    <img alt="" src="./images/paytm.svg">
+                                </div>
+                                <p class="Text-Super-Small">PayTM to Wallet</p>
+                            </div>
+                            <div class="Payment-Item">
+                                <div class="Payment-Logo">
+                                    <img alt="" src="./images/IMPS.svg">
+                                </div>
+                                <p class="Text-Super-Small">IMPS</p>
+                            </div>
+                            <div class="Payment-Item">
+                                <div class="Payment-Logo">
+                                    <img alt="" src="./images/netbanking.svg">
+                                </div>
+                                <p class="Text-Super-Small">NetBanking</p>
+                            </div>
+                            <div class="Payment-Item">
+                                <div class="Payment-Logo">
+                                    <img alt="" src="./images/netbanking_2.svg">
+                                </div>
+                                <p class="Text-Super-Small">NetBanking</p>
+                            </div>
+ 
+                         </div>
+                       </div>
+                   </div>
+                   <div class="deposit-right">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                       <div class="payment-method">
+                            <div class="Payment-Logo">
+                                <img alt="" src="./images/paytm.svg">
+                            </div>
+                            <p class="Text-Super-Small">PayTM to Wallet</p>
+                       </div>
+                       <div class="deposit-right-form">
+                         <div class="personal-input">
+                             <label>Enter deposit amount
+                             </label>
+                             <input type="text" name="name" placeholder="Enter deposit amount">
+                             <div class="min-amount">
+                                
+                                 <span>
+                                     Min 300 INR 
+                                 -
+                                 Max 100000 INR
+                             </span>
+                             </div>
+                         </div>
+                         <div class="personal-input">
+                             <label>Select your bonus</label>
+                             <input type="text" name="name" placeholder="No Bonuses">
+                         </div>
+                         <div class="deposit-btn">
+                              <button class="btn">Desposit</button>
+                         </div>
+ 
+                       </div>
+                   </div>
+                </div>
+             </div>
+          
+        </div>
+      </div>
+
+      <div class="modal fade" id="Withdraw" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        
+            <div class="modal-content">
+                <div class="deposit-modal">
+                   <div class="deposit-left">
+                       <h3>Choose Withdraw Method</h3>
+                       <div class="payment-list">
+                         <h5>You can use them now:</h5>
+                         <div class="payment-list-box">
+                             <div class="Payment-Item">
+                                 <div class="Payment-Logo">
+                                     <img alt="" src="./images/paytm.svg">
+                                 </div>
+                                 <p class="Text-Super-Small">PayTM to Wallet</p>
+                             </div>
+                             <div class="Payment-Item">
+                                 <div class="Payment-Logo">
+                                     <img alt="" src="./images/IMPS.svg">
+                                 </div>
+                                 <p class="Text-Super-Small">IMPS</p>
+                             </div>
+                             <div class="Payment-Item">
+                                 <div class="Payment-Logo">
+                                     <img alt="" src="./images/netbanking.svg">
+                                 </div>
+                                 <p class="Text-Super-Small">NetBanking</p>
+                             </div>
+                             <div class="Payment-Item">
+                                 <div class="Payment-Logo">
+                                     <img alt="" src="./images/netbanking_2.svg">
+                                 </div>
+                                 <p class="Text-Super-Small">NetBanking</p>
+                             </div>
+
+                         </div>
+                       </div>
+                   </div>
+                   <div class="deposit-right">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                       <div class="payment-method">
+                          <img src="./images/paytm.svg" alt="">
+                           <p>PayTM to Wallet</p>
+                       </div>
+                       <div class="Withdrawable-amount">
+                          <p>Withdrawable Amount</p>
+                          <h5>$0</h5>
+                       </div>
+                       <div class="deposit-right-form">
+                         <div class="personal-input">
+                             <label>Enter withdrawal amount
+                             </label>
+                             <input type="text" name="name" placeholder="Enter withdrawal amount">
+                             <div class="min-amount">
+                                 <span>
+                                     Min 300 INR - Max 4000 INR
+                                 </span>
+                             </div>
+                         </div>
+                        
+                         <div class="deposit-btn">
+                              <button class="btn">Continue</button>
+                         </div>
+
+                         <p class="process-time">
+                            <i class="fa-regular fa-clock"></i> Processing time:
+                            <b>10 Minutes - 24 Hours</b>
+                         </p>
+ 
+                       </div>
+                   </div>
+                </div>
+             </div>
+          
+        </div>
+      </div>
+                               
+    <header>
+        <div class="flex">
+            <div class="logo">
+                <img src="./images/logo.png" alt="logo">
+            </div>
+            <div class="header-right">
+                <div class="header-menu">
+                    <ul>
+                        <li><a href="#">sports</a></li>
+                        <li><a href="#">casino</a></li>
+
+                    </ul>
+                </div>
+                <div class="amount-main">
+                    <div class="balance-box-deposit">
+                    <button class="user-deposit"><div class="user-deposit-item"><p class="user-deposit-item-balance">
+                        0.00 ₹
+                      </p></div> <div class="user-deposit-item"><p class="user-deposit-item-text">
+                        Deposit
+                      </p></div>
+                    </button>
+                    <div class="Deposit-dropdown">
+                        <h3>Betting Book Wallet</h3>
+                        <div class="main-balance">
+                             <div class="sub-main-balance">
+                                 <div class="item">
+                                     <p class="name">Balance</p> 
+                                     <p class="balance-amount">0.00 ₹ </p>
+                                 </div>
+                                 <div class="item">
+                                     <p class="name">Exposure</p> 
+                                     <p class="balance-amount">0.00 ₹ </p>
+                                 </div>
+                             </div>
+                        </div>
+
+                        <div class="logout">
+                            <button class="btn">Logout</button>
+                        </div>
+                        
+                    </div>
+                </div>
+                      <a class="profile-img" href="./profile.html">
+                         <img src="./images/profile.svg" alt="">
+                       </a>
+                </div>
+                <!-- <div class="header-btn">
+                    <button>Sign In</button>
+                    <button class="btn">Sign Up</button>
+                </div> -->
+            </div>
+        </div>
+    </header>
+
+    <div class="main-page">
+        <div class="container">
+            <!-- <div class="loader-box">
+                    <div class="loader"></div>
+                </div> -->
+            <div class="flex m-0">
+                <div class="sports-menu">
+                    <div class="heading-side-menu">
+                        <h3>Sports</h3>
+                        <ul>
+                            <li><a href="index.html"><img src="./images/football.svg" alt="">Football</a></li>
+                            <li><a href="tennis.html"><img src="./images/tennis.svg" alt="">Tennis</a>
+                            </li>
+                            <li><a href="basketball.html"><img src="./images/basketball.svg" alt="">Basketball</a></li>
+                            <li><a href="cricket.html"><img src="./images/cricket.svg" alt="">Cricket</a></li>
+                            <li><a href="american-football.html"><img src="./images/american_football.svg" alt="">American
+                                    Football</a></li>
+                            <li><a href="ice-hockey.html"><img src="./images/ice-hockey.svg" alt="">Ice Hockey</a></li>
+                            <li><a href="baseball.html"><img src="./images/baseball.svg" alt="">Base Ball</a></li>
+                            <li><a href="rugby-union.html"><img src="./images/rugby_union.svg" alt="">Rugby Union</a>
+                            </li>
+                            <li><a href="rugby-league.html"><img src="./images/rugby_league.svg" alt="">Rugby League</a>
+                            </li>
+                            <li><a href="australian-rules.html"><img src="./images/australian_rules.svg"
+                                        alt="">Australian Rules</a></li>
+                            <li><a href="volleyball.html"><img src="./images/volleyball.svg" alt="">Volleyball</a></li>
+                            <li><a href="table-tennis.html"><img src="./images/table_tennis.svg" alt="">Table
+                                    Tennis</a></li>
+                            <li><a href="darts.html"><img src="./images/darts.svg" alt="">Darts</a></li>
+                            <li><a href="snooker.html"><img src="./images/snooker.svg" alt="">Snooker</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="center-batting-box">
+                    <div class="sports-football">
+                        <h2>Sports</h2>
+                        <div class="slider-box">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+
+                                    <div class="swiper-slide">
+                                        <div class="slider-inner-box">
+                                            <a href="#"><i class="fa-regular fa-futbol"></i>Football</a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slider-inner-box">
+                                            <a href="#"><i class="fa-solid fa-table-tennis-paddle-ball"></i>Tennis</a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slider-inner-box">
+                                            <a href="#"><i class="fa-solid fa-basketball"></i>Basketball</a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slider-inner-box">
+                                            <a href="#"><img src="./images/ice-hockey.svg" alt="">Ice Hockey</a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slider-inner-box">
+                                            <a href="#"><img src="./images/cricket.svg" alt="">Cricket</a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slider-inner-box">
+                                            <a href="#"><i class="fa-solid fa-football"></i>American Football</a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slider-inner-box">
+                                            <a href="#"><i class="fa-solid fa-baseball"></i>Base Ball</a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slider-inner-box">
+                                            <a href="#"><img src="./images/rugby_union.svg" alt="">Rugby Union</a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slider-inner-box">
+                                            <a href="#"><img src="./images/rugby_league.svg" alt="">Rugby League</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="slider-inner-box">
+                                            <a href="#"><img src="./images/australian_rules.svg" alt="">Australian
+                                                Rules</a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slider-inner-box">
+                                            <a href="#"><i class="fa-solid fa-volleyball"></i>Volleyball</a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slider-inner-box">
+                                            <a href="#"><i class="fa-solid fa-table-tennis-paddle-ball"></i>Table Tennis</a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slider-inner-box">
+                                            <a href="#"><img src="./images/darts.svg" alt="">Darts</a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="slider-inner-box">
+                                            <a href="#"><img src="./images/snooker.svg" alt="">Snooker</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="swiper-button-prev"><i class="fa-solid fa-caret-left"></i></div>
+                                <div class="swiper-button-next"><i class="fa-solid fa-caret-right"></i></div>
+                            </div>
+                        </div>
+
+                        <div class="sports-heading">
+                            <h3>Foot ball</h3>
+                        </div>
+
+                        <div class="tabs">
+                            <ul id="tabs-nav" class="tab-in">
+                                <li><a href="#tab1">In Play</a></li>
+                                <li><a href="#tab2">Upcoming</a></li>
+                                <li><a href="#tab3">Top Leagues</a></li>
+                            </ul> <!-- END tabs-nav -->
+                            <div class="loader-box">
+                                <div class='loader'></div>
+                            </div>
+                            <div id="tabs-content">
+                               
+                                <div id="tab1" class="tab-content">
+                                    <div class="accordion">
+                                        <div class="accordion-item show-accroding">
+                                            <div class="accordion-title">
+                                                <div class="accroding-sub-box">
+                                                    <h3><span class="language-name"><img src="./images/flags/spain.svg" alt=""
+                                                                width="19px" height="100%">Spain La Liga</span>
+                                                        <span class="language-head-main">
+                                                            <div class="language-head">
+                                                                <span>1</span>
+                                                                <span>x</span>
+                                                                <span>2</span>
+                                                            </div>
+
+                                                        </span>
+                                                        <i class="fa-solid fa-angle-down according-icon"></i>
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-contant">
+                                                <div class="language-name-inner">
+                                                    <span class="language-time-date">
+                                                        <div>
+                                                            <span class="date">11/08/23</span> <span
+                                                                class="dash">-</span>
+                                                            <span class="time">23:00</span>
+                                                        </div>
+                                                        <a href="./football-inner.html" class="language-name-inner-sub">
+                                                            <div>
+                                                                <img src="./images/flags/planet.svg" alt="" width="8px"
+                                                                    height="100%">
+                                                                UD Almería
+                                                            </div>
+                                                            <div>
+                                                                <img src="./images/flags/rayo_vallecano.png" alt=""
+                                                                    width="8px" height="100%">
+                                                                Rayo Vallecano
+                                                            </div>
+                                                        </a>
+                                                    </span>
+                                                    <span class="language-head-main">
+                                                        <div class="language-head">
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                        </div>
+                                                    </span>
+                                                </div>
+                                                <div class="language-name-inner">
+                                                    <span class="language-time-date">
+                                                        <div>
+                                                            <span class="date">11/08/23</span> <span
+                                                                class="dash">-</span>
+                                                            <span class="time">23:00</span>
+                                                        </div>
+                                                        <a href="./football-inner.html" class="language-name-inner-sub">
+                                                            <div>
+                                                                <img src="./images/flags/planet.svg" alt="" width="8px"
+                                                                    height="100%">
+                                                                UD Almería
+                                                            </div>
+                                                            <div>
+                                                                <img src="./images/flags/rayo_vallecano.png" alt=""
+                                                                    width="8px" height="100%">
+                                                                Rayo Vallecano
+                                                            </div>
+                                                        </a>
+                                                    </span>
+                                                    <span class="language-head-main">
+                                                        <div class="language-head">
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                        </div>
+                                                    </span>
+                                                </div>
+                                                <div class="language-name-inner">
+                                                    <span class="language-time-date">
+                                                        <div>
+                                                            <span class="date">11/08/23</span> <span
+                                                                class="dash">-</span>
+                                                            <span class="time">23:00</span>
+                                                        </div>
+                                                        <a href="./football-inner.html" class="language-name-inner-sub">
+                                                            <div>
+                                                                <img src="./images/flags/planet.svg" alt="" width="8px"
+                                                                    height="100%">
+                                                                UD Almería
+                                                            </div>
+                                                            <div>
+                                                                <img src="./images/flags/rayo_vallecano.png" alt=""
+                                                                    width="8px" height="100%">
+                                                                Rayo Vallecano
+                                                            </div>
+                                                        </a>
+                                                    </span>
+                                                    <span class="language-head-main">
+                                                        <div class="language-head">
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                        </div>
+                                                    </span>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="accordion-title">
+                                                <div class="accroding-sub-box">
+                                                    <h3><span class="language-name"><img src="./images/flags/spain.svg" alt=""
+                                                                width="19px" height="100%">Spain La Liga</span>
+                                                        <span class="language-head-main">
+                                                            <div class="language-head">
+                                                                <span>1</span>
+                                                                <span>x</span>
+                                                                <span>2</span>
+                                                            </div>
+
+                                                        </span>
+                                                        <i class="fa-solid fa-angle-down according-icon"></i>
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-contant">
+                                                <div class="language-name-inner">
+                                                    <span class="language-time-date">
+                                                        <div>
+                                                            <span class="date">11/08/23</span> <span
+                                                                class="dash">-</span>
+                                                            <span class="time">23:00</span>
+                                                        </div>
+                                                        <a href="./football-inner.html" class="language-name-inner-sub">
+                                                            <div>
+                                                                <img src="./images/flags/planet.svg" alt="" width="8px"
+                                                                    height="100%">
+                                                                UD Almería
+                                                            </div>
+                                                            <div>
+                                                                <img src="./images/flags/rayo_vallecano.png" alt=""
+                                                                    width="8px" height="100%">
+                                                                Rayo Vallecano
+                                                            </div>
+                                                        </a>
+                                                    </span>
+                                                    <span class="language-head-main">
+                                                        <div class="language-head">
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                        </div>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="accordion-title">
+                                                <div class="accroding-sub-box">
+                                                    <h3><span class="language-name"><img src="./images/flags/spain.svg" alt=""
+                                                                width="19px" height="100%">Spain La Liga</span>
+                                                        <span class="language-head-main">
+                                                            <div class="language-head">
+                                                                <span>1</span>
+                                                                <span>x</span>
+                                                                <span>2</span>
+                                                            </div>
+
+                                                        </span>
+                                                        <i class="fa-solid fa-angle-down according-icon"></i>
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-contant">
+                                                <div class="language-name-inner">
+                                                    <span class="language-time-date">
+                                                        <div>
+                                                            <span class="date">11/08/23</span> <span
+                                                                class="dash">-</span>
+                                                            <span class="time">23:00</span>
+                                                        </div>
+                                                        <a href="./football-inner.html" class="language-name-inner-sub">
+                                                            <div>
+                                                                <img src="./images/flags/planet.svg" alt="" width="8px"
+                                                                    height="100%">
+                                                                UD Almería
+                                                            </div>
+                                                            <div>
+                                                                <img src="./images/flags/rayo_vallecano.png" alt=""
+                                                                    width="8px" height="100%">
+                                                                Rayo Vallecano
+                                                            </div>
+                                                        </a>
+                                                    </span>
+                                                    <span class="language-head-main">
+                                                        <div class="language-head">
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                        </div>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="accordion-title">
+                                                <div class="accroding-sub-box">
+                                                    <h3><span class="language-name">
+                                                        <img src="./images/flags/spain.svg" alt=""
+                                                                width="19px" height="100%">Spain La Liga</span>
+                                                        <span class="language-head-main">
+                                                            <div class="language-head">
+                                                                <span>1</span>
+                                                                <span>x</span>
+                                                                <span>2</span>
+                                                            </div>
+                                                        </span>
+                                                        <i class="fa-solid fa-angle-down according-icon"></i>
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-contant">
+                                                <div class="language-name-inner">
+                                                    <span class="language-time-date">
+                                                        <div>
+                                                            <span class="date">11/08/23</span> <span
+                                                                class="dash">-</span>
+                                                            <span class="time">23:00</span>
+                                                        </div>
+                                                        <a href="./football-inner.html" class="language-name-inner-sub">
+                                                            <div>
+                                                                <img src="./images/flags/planet.svg" alt="" width="8px"
+                                                                    height="100%">
+                                                                UD Almería
+                                                            </div>
+                                                            <div>
+                                                                <img src="./images/flags/rayo_vallecano.png" alt=""
+                                                                    width="8px" height="100%">
+                                                                Rayo Vallecano
+                                                            </div>
+                                                        </a>
+                                                    </span>
+                                                    <span class="language-head-main">
+                                                        <div class="language-head">
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                            
+                                                        </div>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="accordion-title">
+                                                <div class="accroding-sub-box">
+                                                    <h3><span class="language-name"><img src="./images/flags/spain.svg" alt=""
+                                                                width="19px" height="100%">Spain La Liga</span>
+                                                        <span class="language-head-main">
+                                                            <div class="language-head">
+                                                                <span>1</span>
+                                                                <span>x</span>
+                                                                <span>2</span>
+                                                            </div>
+
+                                                        </span>
+                                                        <i class="fa-solid fa-angle-down according-icon"></i>
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-contant">
+                                                <div class="language-name-inner">
+                                                    <span class="language-time-date">
+                                                        <div>
+                                                            <span class="date">11/08/23</span> <span
+                                                                class="dash">-</span>
+                                                            <span class="time">23:00</span>
+                                                        </div>
+                                                        <a href="./football-inner.html" class="language-name-inner-sub">
+                                                            <div>
+                                                                <img src="./images/flags/planet.svg" alt="" width="8px"
+                                                                    height="100%">
+                                                                UD Almería
+                                                            </div>
+                                                            <div>
+                                                                <img src="./images/flags/rayo_vallecano.png" alt=""
+                                                                    width="8px" height="100%">
+                                                                Rayo Vallecano
+                                                            </div>
+                                                        </a>
+                                                    </span>
+                                                    <span class="language-head-main">
+                                                        <div class="language-head">
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                        </div>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab2" class="tab-content">
+                                    <div class="upcoming-language">
+                                        <div class="upcoming-label">
+                                            <span>All</span>
+                                            <span>3h</span>
+                                            <span>6h</span>
+                                            <span>12h</span>
+                                        </div>
+                                    </div>
+                                    <div class="accordion">
+                                        <div class="accordion-item">
+                                            <div class="accordion-title">
+                                                <div class="accroding-sub-box">
+                                                    <h3><span class="language-name"><img src="./images/flags/spain.svg" alt=""
+                                                                width="19px" height="100%">Spain La Liga</span>
+                                                        <span class="language-head-main">
+                                                            <div class="language-head">
+                                                                <span>1</span>
+                                                                <span>x</span>
+                                                                <span>2</span>
+                                                            </div>
+
+                                                        </span>
+                                                        <i class="fa-solid fa-angle-down according-icon"></i>
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-contant">
+                                                <div class="language-name-inner">
+                                                    <span class="language-time-date">
+                                                        <div>
+                                                            <span class="date">11/08/23</span> <span
+                                                                class="dash">-</span>
+                                                            <span class="time">23:00</span>
+                                                        </div>
+                                                        <a href="./football-inner.html" class="language-name-inner-sub">
+                                                            <div>
+                                                                <img src="./images/flags/planet.svg" alt="" width="8px"
+                                                                    height="100%">
+                                                                UD Almería
+                                                            </div>
+                                                            <div>
+                                                                <img src="./images/flags/rayo_vallecano.png" alt=""
+                                                                    width="8px" height="100%">
+                                                                Rayo Vallecano
+                                                            </div>
+                                                        </a>
+                                                    </span>
+                                                    <span class="language-head-main">
+                                                        <div class="language-head">
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                        </div>
+                                                    </span>
+                                                </div>
+                                                <div class="language-name-inner">
+                                                    <span class="language-time-date">
+                                                        <div>
+                                                            <span class="date">11/08/23</span> <span
+                                                                class="dash">-</span>
+                                                            <span class="time">23:00</span>
+                                                        </div>
+                                                        <a href="./football-inner.html" class="language-name-inner-sub">
+                                                            <div>
+                                                                <img src="./images/flags/planet.svg" alt="" width="8px"
+                                                                    height="100%">
+                                                                UD Almería
+                                                            </div>
+                                                            <div>
+                                                                <img src="./images/flags/rayo_vallecano.png" alt=""
+                                                                    width="8px" height="100%">
+                                                                Rayo Vallecano
+                                                            </div>
+                                                        </a>
+                                                    </span>
+                                                    <span class="language-head-main">
+                                                        <div class="language-head">
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                        </div>
+                                                    </span>
+                                                </div>
+                                                <div class="language-name-inner">
+                                                    <span class="language-time-date">
+                                                        <div>
+                                                            <span class="date">11/08/23</span> <span
+                                                                class="dash">-</span>
+                                                            <span class="time">23:00</span>
+                                                        </div>
+                                                        <a href="./football-inner.html" class="language-name-inner-sub">
+                                                            <div>
+                                                                <img src="./images/flags/planet.svg" alt="" width="8px"
+                                                                    height="100%">
+                                                                UD Almería
+                                                            </div>
+                                                            <div>
+                                                                <img src="./images/flags/rayo_vallecano.png" alt=""
+                                                                    width="8px" height="100%">
+                                                                Rayo Vallecano
+                                                            </div>
+                                                        </a>
+                                                    </span>
+                                                    <span class="language-head-main">
+                                                        <div class="language-head">
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                        </div>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="accordion-title">
+                                                <div class="accroding-sub-box">
+                                                    <h3><span class="language-name"><img src="./images/flags/spain.svg" alt=""
+                                                                width="19px" height="100%">Spain La Liga</span>
+                                                        <span class="language-head-main">
+                                                            <div class="language-head">
+                                                                <span>1</span>
+                                                                <span>x</span>
+                                                                <span>2</span>
+                                                            </div>
+
+                                                        </span>
+                                                        <i class="fa-solid fa-angle-down according-icon"></i>
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-contant">
+                                                <div class="language-name-inner">
+                                                    <span class="language-time-date">
+                                                        <div>
+                                                            <span class="date">11/08/23</span> <span
+                                                                class="dash">-</span>
+                                                            <span class="time">23:00</span>
+                                                        </div>
+                                                        <a href="./football-inner.html" class="language-name-inner-sub">
+                                                            <div>
+                                                                <img src="./images/flags/planet.svg" alt="" width="8px"
+                                                                    height="100%">
+                                                                UD Almería
+                                                            </div>
+                                                            <div>
+                                                                <img src="./images/flags/rayo_vallecano.png" alt=""
+                                                                    width="8px" height="100%">
+                                                                Rayo Vallecano
+                                                            </div>
+                                                        </a>
+                                                    </span>
+                                                    <span class="language-head-main">
+                                                        <div class="language-head">
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                   <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                        </div>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="accordion-title">
+                                                <div class="accroding-sub-box">
+                                                    <h3><span class="language-name"><img src="./images/flags/spain.svg" alt=""
+                                                                width="19px" height="100%">Spain La Liga</span>
+                                                        <span class="language-head-main">
+                                                            <div class="language-head">
+                                                                <span>1</span>
+                                                                <span>x</span>
+                                                                <span>2</span>
+                                                            </div>
+
+                                                        </span>
+                                                        <i class="fa-solid fa-angle-down according-icon"></i>
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-contant">
+                                                <div class="language-name-inner">
+                                                    <span class="language-time-date">
+                                                        <div>
+                                                            <span class="date">11/08/23</span> <span
+                                                                class="dash">-</span>
+                                                            <span class="time">23:00</span>
+                                                        </div>
+                                                        <a href="./football-inner.html" class="language-name-inner-sub">
+                                                            <div>
+                                                                <img src="./images/flags/planet.svg" alt="" width="8px"
+                                                                    height="100%">
+                                                                UD Almería
+                                                            </div>
+                                                            <div>
+                                                                <img src="./images/flags/rayo_vallecano.png" alt=""
+                                                                    width="8px" height="100%">
+                                                                Rayo Vallecano
+                                                            </div>
+                                                        </a>
+                                                    </span>
+                                                    <span class="language-head-main">
+                                                        <div class="language-head">
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                        </div>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="accordion-title">
+                                                <div class="accroding-sub-box">
+                                                    <h3><span class="language-name"><img src="./images/flags/spain.svg" alt=""
+                                                                width="19px" height="100%">Spain La Liga</span>
+                                                        <span class="language-head-main">
+                                                            <div class="language-head">
+                                                                <span>1</span>
+                                                                <span>x</span>
+                                                                <span>2</span>
+                                                            </div>
+
+                                                        </span>
+                                                        <i class="fa-solid fa-angle-down according-icon"></i>
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-contant">
+                                                <div class="language-name-inner">
+                                                    <span class="language-time-date">
+                                                        <div>
+                                                            <span class="date">11/08/23</span> <span
+                                                                class="dash">-</span>
+                                                            <span class="time">23:00</span>
+                                                        </div>
+                                                        <a href="./football-inner.html" class="language-name-inner-sub">
+                                                            <div>
+                                                                <img src="./images/flags/planet.svg" alt="" width="8px"
+                                                                    height="100%">
+                                                                UD Almería
+                                                            </div>
+                                                            <div>
+                                                                <img src="./images/flags/rayo_vallecano.png" alt=""
+                                                                    width="8px" height="100%">
+                                                                Rayo Vallecano
+                                                            </div>
+                                                        </a>
+                                                    </span>
+                                                    <span class="language-head-main">
+                                                        <div class="language-head">
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                        </div>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <div class="accordion-title">
+                                                <div class="accroding-sub-box">
+                                                    <h3><span class="language-name"><img src="./images/flags/spain.svg" alt="" width="19px" height="100%">Spain La Liga</span>
+                                                        <span class="language-head-main">
+                                                            <div class="language-head">
+                                                                <span>1</span>
+                                                                <span>x</span>
+                                                                <span>2</span>
+                                                            </div>
+
+                                                        </span>
+                                                        <i class="fa-solid fa-angle-down according-icon"></i>
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-contant">
+                                                <div class="language-name-inner">
+                                                    <span class="language-time-date">
+                                                        <div>
+                                                            <span class="date">11/08/23</span> <span
+                                                                class="dash">-</span>
+                                                            <span class="time">23:00</span>
+                                                        </div>
+                                                        <a href="./football-inner.html" class="language-name-inner-sub">
+                                                            <div>
+                                                                <img src="./images/flags/planet.svg" alt="" width="8px"
+                                                                    height="100%">
+                                                                UD Almería
+                                                            </div>
+                                                            <div>
+                                                                <img src="./images/flags/rayo_vallecano.png" alt=""
+                                                                    width="8px" height="100%">
+                                                                Rayo Vallecano
+                                                            </div>
+                                                        </a>
+                                                    </span>
+                                                    <span class="language-head-main">
+                                                        <div class="language-head">
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                 <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+                                                            <span>
+                                                                <div class="bet-number">
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                    <button class="bet-sub-box">
+                                                                        <h4>2.45</h4>
+                                                                        <p>$0</p>
+                                                                    </button>
+                                                                </div>
+                                                            </span>
+
+                                                        </div>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab3" class="tab-content">
+                                    <div class="accordion-item show-accroding">
+                                        <div class="accordion-title">
+                                            <div class="accroding-sub-box">
+                                                <h3><span class="language-name"><img src="./images/flags/france.svg" alt=""
+                                                            width="19px" height="100%">France Ligue 1</span>
+                                                    <span class="language-head-main">
+                                                        <div class="language-head">
+                                                            <span>1</span>
+                                                            <span>x</span>
+                                                            <span>2</span>
+                                                        </div>
+
+                                                    </span>
+                                                    <i class="fa-solid fa-angle-down according-icon"></i>
+                                                </h3>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-contant">
+                                            <div class="language-name-inner">
+                                                <span class="language-time-date">
+                                                    <div>
+                                                        <span class="date">11/08/23</span> <span
+                                                            class="dash">-</span>
+                                                        <span class="time">23:00</span>
+                                                    </div>
+                                                    <a href="#" class="language-name-inner-sub">
+                                                        <div>
+                                                            <img src="./images/flags/planet.svg" alt="" width="8px"
+                                                                height="100%">
+                                                                OGC Nice
+                                                        </div>
+                                                        <div>
+                                                            <img src="./images/flags/planet.svg" alt=""
+                                                                width="8px" height="100%">
+                                                                Lille OSC
+                                                        </div>
+                                                    </a>
+                                                </span>
+                                                <span class="language-head-main">
+                                                    <div class="language-head">
+                                                        <span>
+                                                            <div class="bet-number">
+                                                             <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                                <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                            </div>
+                                                        </span>
+                                                        <span>
+                                                            <div class="bet-number">
+                                                             <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                                <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                            </div>
+                                                        </span>
+                                                        <span>
+                                                            <div class="bet-number">
+                                                             <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                                <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                            </div>
+                                                        </span>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                            
+                                        </div>
+
+                                    </div>
+                                    <div class="accordion-item">
+                                        <div class="accordion-title">
+                                            <div class="accroding-sub-box">
+                                                <h3><span class="language-name"><img src="./images/flags/england.svg" alt=""
+                                                    width="19px" height="100%">England Championship</span>
+                                                    <span class="language-head-main">
+                                                        <div class="language-head">
+                                                            <span>1</span>
+                                                            <span>x</span>
+                                                            <span>2</span>
+                                                        </div>
+
+                                                    </span>
+                                                    <i class="fa-solid fa-angle-down according-icon"></i>
+                                                </h3>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-contant">
+                                            <div class="language-name-inner">
+                                                <span class="language-time-date">
+                                                    <div>
+                                                        <span class="date">12/08/23</span> <span
+                                                            class="dash">-</span>
+                                                        <span class="time">23:00</span>
+                                                    </div>
+                                                    <a href="#" class="language-name-inner-sub">
+                                                        <div>
+                                                            <img src="./images/flags/planet.svg" alt="" width="8px"
+                                                                height="100%">
+                                                                Coventry City
+                                                        </div>
+                                                        <div>
+                                                            <img src="./images/flags/planet.svg" alt=""
+                                                                width="8px" height="100%">
+                                                                Middlesbrough
+                                                        </div>
+                                                    </a>
+                                                </span>
+                                                <span class="language-head-main">
+                                                    <div class="language-head">
+                                                        <span>
+                                                            <div class="bet-number">
+                                                             <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                                <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                            </div>
+                                                        </span>
+                                                        <span>
+                                                            <div class="bet-number">
+                                                             <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                                <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                            </div>
+                                                        </span>
+                                                        <span>
+                                                            <div class="bet-number">
+                                                             <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                                <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                            </div>
+                                                        </span>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <div class="accordion-title">
+                                            <div class="accroding-sub-box">
+                                                <h3><span class="language-name"><img src="./images/flags/england.svg" alt=""
+                                                    width="19px" height="100%">England Championship</span>
+                                                    <span class="language-head-main">
+                                                        <div class="language-head">
+                                                            <span>1</span>
+                                                            <span>x</span>
+                                                            <span>2</span>
+                                                        </div>
+                                                    </span>
+                                                    <i class="fa-solid fa-angle-down according-icon"></i>
+                                                </h3>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-contant">
+                                            <div class="language-name-inner">
+                                                <span class="language-time-date">
+                                                    <div>
+                                                        <span class="date">11/08/23</span> <span
+                                                            class="dash">-</span>
+                                                        <span class="time">23:00</span>
+                                                    </div>
+                                                    <a href="#" class="language-name-inner-sub">
+                                                        <div>
+                                                            <img src="./images/flags/planet.svg" alt="" width="8px"
+                                                                height="100%">
+                                                            UD Almería
+                                                        </div>
+                                                        <div>
+                                                            <img src="./images/flags/rayo_vallecano.png" alt=""
+                                                                width="8px" height="100%">
+                                                            Rayo Vallecano
+                                                        </div>
+                                                    </a>
+                                                </span>
+                                                <span class="language-head-main">
+                                                    <div class="language-head">
+                                                        <span>
+                                                            <div class="bet-number">
+                                                             <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                                <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                            </div>
+                                                        </span>
+                                                        <span>
+                                                            <div class="bet-number">
+                                                             <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                                <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                            </div>
+                                                        </span>
+                                                        <span>
+                                                            <div class="bet-number">
+                                                             <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                                <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                            </div>
+                                                        </span>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <div class="accordion-title">
+                                            <div class="accroding-sub-box">
+                                                <h3><span class="language-name"><img src="./images/flags/england.svg" alt=""
+                                                    width="19px" height="100%">England Championship</span>
+                                                    <span class="language-head-main">
+                                                        <div class="language-head">
+                                                            <span>1</span>
+                                                            <span>x</span>
+                                                            <span>2</span>
+                                                        </div>
+
+                                                    </span>
+                                                    <i class="fa-solid fa-angle-down according-icon"></i>
+                                                </h3>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-contant">
+                                            <div class="language-name-inner">
+                                                <span class="language-time-date">
+                                                    <div>
+                                                        <span class="date">11/08/23</span> 
+                                                        <span class="dash">-</span>
+                                                        <span class="time">23:00</span>
+                                                    </div>
+                                                    <a href="#" class="language-name-inner-sub">
+                                                        <div>
+                                                            <img src="./images/flags/planet.svg" alt="" width="8px"
+                                                                height="100%">
+                                                            UD Almería
+                                                        </div>
+                                                        <div>
+                                                            <img src="./images/flags/rayo_vallecano.png" alt=""
+                                                                width="8px" height="100%">
+                                                            Rayo Vallecano
+                                                        </div>
+                                                    </a>
+                                                </span>
+                                                <span class="language-head-main">
+                                                    <div class="language-head">
+                                                        <span>
+                                                            <div class="bet-number">
+                                                             <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                                <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                            </div>
+                                                        </span>
+                                                        <span>
+                                                            <div class="bet-number">
+                                                             <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                                <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                            </div>
+                                                        </span>
+                                                        <span>
+                                                            <div class="bet-number">
+                                                             <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                                <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                            </div>
+                                                        </span>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <div class="accordion-title">
+                                            <div class="accroding-sub-box">
+                                                <h3><span class="language-name"><img src="./images/flags/england.svg" alt=""
+                                                    width="19px" height="100%">England Championship</span>
+                                                    <span class="language-head-main">
+                                                        <div class="language-head">
+                                                            <span>1</span>
+                                                            <span>x</span>
+                                                            <span>2</span>
+                                                        </div>
+                                                    </span>
+                                                    <i class="fa-solid fa-angle-down according-icon"></i>
+                                                </h3>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-contant">
+                                            <div class="language-name-inner">
+                                                <span class="language-time-date">
+                                                    <div>
+                                                        <span class="date">11/08/23</span> 
+                                                        <span class="dash">-</span>
+                                                        <span class="time">23:00</span>
+                                                    </div>
+                                                    <a href="#" class="language-name-inner-sub">
+                                                        <div>
+                                                            <img src="./images/flags/planet.svg" alt="" width="8px"
+                                                                height="100%">
+                                                            UD Almería
+                                                        </div>
+                                                        <div>
+                                                            <img src="./images/flags/rayo_vallecano.png" alt=""
+                                                                width="8px" height="100%">
+                                                            Rayo Vallecano
+                                                        </div>
+                                                    </a>
+                                                </span>
+                                                <span class="language-head-main">
+                                                    <div class="language-head">
+                                                        <span>
+                                                            <div class="bet-number">
+                                                             <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                                <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                            </div>
+                                                        </span>
+                                                        <span>
+                                                            <div class="bet-number">
+                                                             <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                                <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                            </div>
+                                                        </span>
+                                                        <span>
+                                                            <div class="bet-number">
+                                                             <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                                <button class="bet-sub-box">
+                                                                    <h4>2.45</h4>
+                                                                    <p>$0</p>
+                                                                </button>
+                                                            </div>
+                                                        </span>
+                                                    </div>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- END tabs-content -->
+                        </div> <!-- END tabs -->
+                    </div>
+                </div>
+
+                <div class="bet-menu">
+                    <div class="live-stream">
+                        <div class="sports-heading">
+                            <h3>live stream</h3>
+                        </div>
+                        <div class="live-tv">
+                            <iframe id="rindle-frame" scrolling="no" width="100%" allowfullscreen="" height="205px" allow="" src="https://player.twitch.tv/?channel=betby_games_19&amp;parent=rajabets.com&amp;muted=true&amp;allow=&amp;parent=static2.stratagem.me"></iframe>
+                        </div>
+                    </div>
+                    <div class="tabs">
+                        <ul id="tabs-nav" class="tab-in">
+                            <li><a href="#tab4">Betslip </a></li>
+                            <li><a href="#tab5">Open Bets (0)</a></li>
+                            <li><a href="./profile.html">Bet History</a></li>
+                        </ul>
+                        <div class="loader-box">
+                            <div class="loader"></div>
+                        </div>
+                        <div id="tabs-content">
+                            <div id="tab4" class="tab-content">
+                             <div class="betslip lay">
+                                    <div class="bets-slip-detail">
+                                        <div class="bet-head">
+                                            <div class="bet_head">Lay (Bet For) : <i class="fas fa-times text-danger"></i></div>
+                                            <div class="bet-name-inner">
+                                                <h5>Morocco - Colombia</h5>
+                                                <h6>1X2</h6>
+                                            </div>  
+                                        </div>
+                                        <div class="bet-detail-number">
+                                            <div class="bet-dn-input">
+                                                <label>Odds</label>
+                                                <input type="number" name="text" step="0.01">
+                                            </div>
+                                            <div class="bet-dn-input">
+                                                <label>Stake</label>
+                                                <input type="text" name="text">
+                                            </div>
+                                            <div class="bet-dn-input">
+                                                <label>Lability</label>
+                                                <input type="text" name="text">
+                                            </div>
+                                        </div>
+                                    </div>
+                                   <div class="label-stake">
+                                        <div class="label-inner">
+                                            <span>1000</span>
+                                            <span>2000</span>
+                                            <span>3000</span>
+                                            <span>4000</span>
+                                        </div>
+                                     <button> clear</button>
+
+                                   </div>
+                                </div>
+                                <div class="betslip back">
+                                    <div class="bets-slip-detail">
+                                        <div class="bet-head">
+                                            <div class="bet_head">Back (Bet For) : <i class="fas fa-times text-danger"></i></div>
+                                            <div class="bet-name-inner">
+                                                <h5>Morocco - Colombia</h5>
+                                                <h6>1X2</h6>
+                                            </div>  
+                                        </div>
+                                        <div class="bet-detail-number">
+                                            <div class="bet-dn-input">
+                                                <label>Odds</label>
+                                                <input type="number" name="text" step="0.01">
+                                            </div>
+                                            <div class="bet-dn-input">
+                                                <label>Stake</label>
+                                                <input type="text" name="text">
+                                            </div>
+                                            <div class="bet-dn-input">
+                                                <label>Lability</label>
+                                                <input type="text" name="text">
+                                            </div>
+                                        </div>
+                                    </div>
+                                   <div class="label-stake">
+                                     <div class="label-inner">
+                                        <span>1000</span>
+                                        <span>2000</span>
+                                        <span>3000</span>
+                                        <span>4000</span>
+                                     </div>
+                                     <button> clear</button>
+                                   </div>
+                                </div>
+                                <div class="place-button">
+                                    <button class="btn">Place a bet</button>
+                                </div>
+
+                            </div>
+                            <div id="tab5" class="tab-content">
+                                <div class="profile_table table-responsive">
+                                    <table class="table">
+                                       <thead>
+                                          <tr class="">
+                                             <th scope="col">Runner</th>
+                                             <th>Odds</th>
+                                             <th>Stake</th>
+                                             <th>P/L</th>
+                                          </tr>
+                                       </thead>
+                                       <thead>
+                                          <tr class="dark">
+                                             <th colspan="4">BookMaker Market</th>
+                                          </tr>
+                                       </thead>
+                                       <tbody>
+                                          <tr>
+                                             <td><span class="table_title">Pakistan</span></td>
+                                             <td>76.00</td>
+                                             <td>3000.00</td>
+                                             <td>2280.00</td>
+                                          </tr>
+                                       </tbody>
+                                       <thead>
+                                          <tr class="dark">
+                                             <th colspan="4">Fancy Market</th>
+                                          </tr>
+                                       </thead>
+                                       <tbody>
+                                          <tr>
+                                             <td><span class="table_title">30 Over Run</span></td>
+                                             <td>42.00(809.00)</td>
+                                             <td>1000.00</td>
+                                             <td>8090.00</td>
+                                          </tr>
+                                          <tr class="bg-danger">
+                                             <td><span class="table_title">Rangpur Rangers total runs</span></td>
+                                             <td>66.00(635.00)</td>
+                                             <td>1000.00</td>
+                                             <td>6350.00</td>
+                                          </tr>
+                                          <tr class="bg-danger">
+                                             <td><span class="table_title">30 Over Run</span></td>
+                                             <td>69.00(961.00)</td>
+                                             <td>1000.00</td>
+                                             <td>9610.00</td>
+                                          </tr>
+                                       </tbody>
+                                       <thead>
+                                          <tr class="dark">
+                                             <th colspan="4">Fancy2 Market</th>
+                                          </tr>
+                                       </thead>
+                                       <tbody>
+                                          <tr class="bg-danger">
+                                             <td><span class="table_title">30 over run SL</span></td>
+                                             <td>87.00(930.00)</td>
+                                             <td>2000.00</td>
+                                             <td>18600.00</td>
+                                          </tr>
+                                          <tr class="bg-danger">
+                                             <td><span class="table_title">10 over runs UAE(UAE vs SCO)adv</span></td>
+                                             <td>67.00(206.00)</td>
+                                             <td>1000.00</td>
+                                             <td>2060.00</td>
+                                          </tr>
+                                       </tbody>
+                                       <thead>
+                                          <tr class="dark">
+                                             <th colspan="4">MatchOdd Market</th>
+                                          </tr>
+                                       </thead>
+                                       <tbody>
+                                          <tr>
+                                             <td><span class="table_title">Pakistan</span></td>
+                                             <td>11.80</td>
+                                             <td>1000.00</td>
+                                             <td>10800.00</td>
+                                          </tr>
+                                          <tr>
+                                             <td><span class="table_title">Pakistan</span></td>
+                                             <td>10.10</td>
+                                             <td>1000.00</td>
+                                             <td>9100.00</td>
+                                          </tr>
+                                          <tr>
+                                             <td><span class="table_title">Pakistan</span></td>
+                                             <td>10.10</td>
+                                             <td>1000.00</td>
+                                             <td>9100.00</td>
+                                          </tr>
+                                          <tr>
+                                             <td><span class="table_title">UAE</span></td>
+                                             <td>6.30</td>
+                                             <td>1000.00</td>
+                                             <td>5300.00</td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                 </div>
+                            </div>
+                            <div id="tab6" class="tab-content">
+                                gbfdettsdfrwewr
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer class="footer-sec">
+        <div class="main">
+            <div class="footer-logo row">
+                <div class="footer-header">
+                    <img src="./images/logo.png" alt="">
+                </div>
+                <div class="logo-des">
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour.</p>
+                    <div class="personal-input">
+                        <input type="text" name="name" placeholder="Enter your email">
+                    </div>
+                    <a href="#" class="btn-know btn">Subscribe</a>
+                </div>
+            </div>
+            <div class="office row">
+                <div class="footer-header">
+                    <h3>About us</h3>
+                </div>
+
+                <div class="link-des">
+                    <a href="#" class="footer-links">Terms & Conditions</a>
+                    <a href="#" class="footer-links">Privacy Policy</a>
+                    <a href="#" class="footer-links">BSGG Token</a>
+                    <a href="#" class="footer-links">FAQ's</a>
+                </div>
+
+            </div>
+
+            <div class="link row">
+                <div class="footer-header">
+                    <h3>Links</h3>
+                </div>
+
+                <div class="link-des">
+                    <a href="#" class="footer-links">Home</a>
+                    <a href="#" class="footer-links">About</a>
+                    <a href="#" class="footer-links">Services</a>
+                    <a href="#" class="footer-links">Galary</a>
+                    <a href="#" class="footer-links">Contact</a>
+                </div>
+
+            </div>
+            <div class="link row">
+                <div class="footer-header">
+                    <h3>Support</h3>
+                </div>
+
+                <div class="link-des">
+                    <a href="#" class="footer-links">Responsible Gambling</a>
+                    <a href="#" class="footer-links">Whitepaper</a>
+                    <a href="#" class="footer-links">GitHub</a>
+                    <a href="#" class="footer-links">Galary</a>
+                    <a href="#" class="footer-links">Live Chat</a>
+                </div>
+
+            </div>
+            <div class="link row">
+                <div class="footer-header">
+                    <h3>Social Media</h3>
+                </div>
+
+                <div class="link-des">
+                    <a href="#" class="footer-links">Twitter </a>
+                    <a href="#" class="footer-links">Facebook</a>
+                    <a href="#" class="footer-links">YouTube</a>
+                    <a href="#" class="footer-links">Instagram</a>
+                    <a href="#" class="footer-links">LinkedIn</a>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="copyright">
+            <hr>
+            <p>© Copyright 2022 xyz.</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./js/swiper.min.js"></script>
+    <script>
+  
+
+        $(document).ready(function () {
+            // Swiper: Slider
+            new Swiper('.swiper-container', {
+                loop: true,
+                nextButton: '.swiper-button-next',
+                prevButton: '.swiper-button-prev',
+                slidesPerView: 6,
+                paginationClickable: true,
+                spaceBetween: 20,
+                breakpoints: {
+                    1920: {
+                        slidesPerView: 6,
+                        spaceBetween: 20
+                    },
+                    1600: {
+                        slidesPerView: 4,
+                        spaceBetween: 20
+                    },
+                    1200: {
+                        slidesPerView: 3,
+                        spaceBetween: 10
+                    }
+                }
+            });
+
+
+
+            $("body .tab-content").addClass('hidden'); //Hide all content
+            $("body .tab-in li:first-child").addClass("active").removeClass('hidden'); //Activate first tab
+            $("body .tab-content:first-child").removeClass('hidden'); //Show first tab content
+
+            // On Click Event
+            $("body .tab-in li").click(function () {
+
+                $(this).siblings().removeClass('active'); //Remove any "active" class
+                $(this).addClass('active'); //Add "active" class to selected tab
+                $('body .tab_content').addClass('hidden'); //Hide all tab content
+
+                var activeTab = $(this).find("a").attr("href"); //Find the href attribute value to identify the active tab + content
+                $(activeTab).removeClass('hidden');       //Fade in the active ID content
+                $(activeTab).siblings().addClass('hidden');
+                return false;
+            });
+
+
+        });
+
+        //  Accroding sec
+
+        $(document).ready(function () {
+            // $("body .accordion .accordion-item:first-child").toggleClass('show-accroding');
+            $(".accordion-title").click(function () {
+                $(this).parent(".accordion-item").find(".accordion-contant").slideToggle();
+                $(this).parent(".accordion-item").toggleClass("show-accroding");
+                $(this).parent(".accordion-item").prevAll(".accordion-item");
+                $(this).parent(".accordion-item").nextAll(".accordion-item");
+            });
+        });
+        //  menu add active 
+
+        jQuery(function ($) {
+            var path = window.location.href;
+            $('.heading-side-menu li a').each(function () {
+                if (this.href === path) {
+                    $(this).addClass('active');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

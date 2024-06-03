@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 20" width="25" height="20">
+	<title>cloud</title>
+	<defs>
+		<image  width="25" height="20" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAUCAMAAABPqWaPAAAAAXNSR0IB2cksfwAAAR1QTFRFxwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5kle22gAAAF90Uk5TADeT1vv/8seBHhy0/IwK66JMGRAkXcDLFezTKk/wyAgBw9QPL/OCRfooY/capALgyWsF5FBwzSkDBCN0Jtl348rOp6DVLv5KJwbc2t8xxtCQeNIl75aUdiI4Uu7PWV/tNlGlAAABA0lEQVR4nG2QeTsCURTGT/QrxiCUJVLGVmiQPRWSpZCQffn+H8Od1cyj949733N/93nPeY6IpUhff5RYfGBQwtKGcKUPjwRBZBQ9MTY+kUxNwtT0H0jOkJ51/VyG+awHcgsYi/63pWVWPL9KvhCIXmN9w7VFEsGm5iZEt7ZLyu6wGxp0zx5yXxPROfBfD+3zqHwcI50VqHigStV1hQw1OfHSzFOVcmY6RQ1D6pw7oGE3aDjogku5In+tbLMFLW7gtmmRO0Vybe5VoaLqHTpFtR+LPPAo8tSlLNLmWRSRF+IKVLq8quvt3Z3IIrY+PjH89YVInC9NepLCd0l6k39K6T+B6hcbKhz1dmxJcQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

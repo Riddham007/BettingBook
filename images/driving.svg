@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 20" width="30" height="20">
+	<title>driving</title>
+	<defs>
+		<image  width="30" height="20" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAUCAMAAACtdX32AAAAAXNSR0IB2cksfwAAAKtQTFRFxwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5xwA5OSLyVQAAADl0Uk5TGrj+/7zNsNUBAMB74+hxs/BcKt8UR3AeoNso5JI1YA1G9+DE5e8vxU18BBDcZOyH4ojpMd2JltombEM2GwAAAK5JREFUeJydktkOgjAQRUsHhCKouCDu+4L7rv//ZQ5toI2hGD1PTU96MzMdQgwKGqhBiAlWSYMFJqG2wzQ4NhBwdZYx93dd9nzEq0hdrQkCvKr7ouxGM9OtUNBGHUEHRbcH/UwPhkgwSqLHE5jOkDkslqle8bh1omM5lTDVmy3CH6Pe7Tme1Aox+BHnILVSWl640tgRTmfOJTf8eruLw+P5+meoH7r4Q7+sQ/EyvQH86hpm2pfMbAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>
