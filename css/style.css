@@ -2848,7 +2848,7 @@ div#sign-up.verification .modal-dialog {
     height: 100%;
     top: 50%;
     transform: translateY(-50%) translateX(-50%);
-    display: inline-flex;
+    display: none;
     align-items: center;
     justify-content: center;
     left: 50%;
